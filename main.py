@@ -19,7 +19,7 @@ CORS(app, resources={r"*": {"origins": "*"}})
 
 @app.route('/', methods=['GET'], strict_slashes=False)
 def index():
-    return render_template('index.html', projects=projects)
+    return render_template('index.html')
 
 
 
