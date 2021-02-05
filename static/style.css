@@ -1,0 +1,51 @@
+
+html {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    width: 800px;
+    min-width: 50vw;
+    max-width: 90vw;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 2rem;
+    overflow: hidden;
+}
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card > * {
+    min-height: inherit;
+    min-width: inherit;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 150px;
+}
+.name {
+    font-weight: bold;
+}
+
+
+/* ================ CUSTOMIZE YOUR OWN CSS BELOW  */
+
+
+#athenadeng {
+    background-color: black;
+    color: white;
+    border: 3px dashed violet;
+}
+
+#russellmolimock {
+    background-color: rgb(160, 17, 17);
+    border: 3px dashed black;
+    color: white;
+}
